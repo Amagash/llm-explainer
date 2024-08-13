@@ -6,7 +6,6 @@ import streamlit as st
 
 def make_plot(words):
   model = gensim.downloader.load('glove-wiki-gigaword-50')
-  # words = ["cat", "dog", "car", "truck", "glass", "plate"]
 
   vector_1 = model[words[0]][0:3]
   vector_2 = model[words[1]][0:3]
@@ -42,5 +41,3 @@ def make_plot(words):
   ax.set_ylabel('y')
   ax.set_zlabel('z')
   st.pyplot(fig)
-
-  # plt.show()
