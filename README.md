@@ -11,3 +11,6 @@ Activate the virtual environment env
 
 Install all requirements
 ```pip install -r requirements.txt```
+
+Launch Streamlit
+```streamlit run streamlit.py```
