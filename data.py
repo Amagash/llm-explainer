@@ -36,8 +36,7 @@ soa = np.array([[0, 0, 0, vector_1[0], vector_1[1], vector_1[2]],
                 [0, 0, 0, vector_6[0], vector_6[1], vector_6[2]],
                 ])
 
-X, Y, Z, U, V, W = zip(*soa)
-ax.quiver(X, Y, Z, U, V, W, color=['r','b','g','y','m','c'])
+
 ax.set_xlim([-1.5, 1.5])
 ax.set_ylim([-1.5, 1.5])
 ax.set_zlim([-1.5, 1.5])
