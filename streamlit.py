@@ -1,12 +1,5 @@
 import streamlit as st
-import pandas as pd
-import numpy as np
-import gensim.downloader
-from mpl_toolkits import mplot3d
-import matplotlib.pyplot as plt
 from data import make_plot
-import mpld3
-import streamlit.components.v1 as components
 
 st.title('LLM explainer')
 

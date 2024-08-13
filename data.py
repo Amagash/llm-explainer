@@ -1,6 +1,5 @@
 import gensim.downloader
 import numpy as np
-from mpl_toolkits import mplot3d
 import matplotlib.pyplot as plt
 import streamlit as st
 
